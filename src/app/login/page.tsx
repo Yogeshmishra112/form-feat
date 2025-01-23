@@ -15,10 +15,10 @@ export default function AuthenticationPage() {
         className="container relative h-[100vh] bg-cover bg-center"
         style={{ backgroundImage: `url(${imagePath})` }} 
       >
-        {/* Position the login box manually */}
-        <div className="absolute top-[20%] right-[10%] max-w-sm w-full p-8 z-10">
+       
+        <div className="absolute top-[20%] right-[10%] max-w-sm w-full p-8 z-10 ">
           <div className="mx-auto flex w-full flex-col justify-center space-y-6">
-            {/* Include the UserAuth component here */}
+           
             <UserAuth />
           </div>
         </div>
